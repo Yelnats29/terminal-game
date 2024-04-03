@@ -49,7 +49,7 @@ const greeting = prompt(`Welcome, ${username}, Let's get to work and get you cau
 
 console.log();
 console.clear()
-const gameInstruction = prompt(`Let me introduce you to your Bots. They aren't the latest versions, but they get the job done. Don't worry about breaking athem! We recycle from the space junk \nA bot has 3 tasks and that is to Attack the enemy, Repair the barracks, or to do Nothing. The efficientcy of this task some what vary in power usually between 1 - 5 points. They can make one move per turn. \nRememeber this, you can create 1 new Bot per turn without a max.\n 
+const gameInstruction = prompt(`Let me introduce you to your Bots. They aren't the latest versions, but they get the job done. Don't worry about breaking them! We recycle from them from space junk. \nA bot has 3 tasks and that is to Attack the enemy, Repair the barracks, or to do Nothing. The efficientcy of this task some what vary in power usually between 1 - 5 points. They can make one move per turn. \nRememeber this, you can create 1 new Bot per turn without a max.\n 
 If the computer has 0 or fewer hit points, you win
 If you have 0 or fewer hit points, the computer wins
 If you both have 0 or fewer hit points, it’s a tie
