@@ -17,8 +17,7 @@ Press "Enter" to take the next step`;
 
 console.log(introStory);
 prompt(); // This will pause the screen until the user selects the Enter command.
-;
-}
+};
 
 showIntro()
 
@@ -29,7 +28,7 @@ if(teams === "space ranger"){
    console.clear(), console.log("You made the right choice! It's great to have you on board")
 }else if(teams === "pirates"){
    console.clear(), console.log('Welcome to the dark side, my new friend! We were expecting you!')
-}else{console.log('This is a matter of great importance, You are our only hope! \n'), console.clear(), selectTeam()}};
+}else{console.log('This is a matter of great importance, You are our only hope! \n'), console.log(), selectTeam()}};
 //This repeats(loops) the team selection if any other choice is entered besides to 2 presented.
 
 console.clear()
